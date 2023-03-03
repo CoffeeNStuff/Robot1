@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "hardware.hpp"
 struct Point { 
     int x;
     int y; 
@@ -11,10 +11,12 @@ struct Point {
 
 
 int main() { 
-int distance;
-int speed;
+int dist;
+int V;
+int deg;
 int xAxis [20];
 int yAxis [20]; 
+int jin;
 
 do {
     //create points 
@@ -22,6 +24,15 @@ do {
 if (distance < 10) {
     //mark blocked points 
 };
+do { 
+   if (jin == right) { 
+ do{ 
+  degree += 1 
+   delay(change)} while (1 == 1)
+   }while (1 == 1) 
+}
+}
+
 
     return 0;
 }
